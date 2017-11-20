@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "JoF.Solar.Fs.Library", "JoF.Solar.Fs.Library\JoF.Solar.Fs.Library.fsproj", "{D04A6A9B-6EAC-4AC3-835E-BF614FE8D1C4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Tests", "_Tests", "{F6935398-87B7-4FF5-BE9C-2FF3F6E1AB2C}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "JoF.Solar.Fs.Tests.Unit", "Tests\JoF.Solar.Fs.Tests.Unit\JoF.Solar.Fs.Tests.Unit.fsproj", "{017F5B35-5C2B-4048-B433-3ECB381F64A1}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "JoF.Solar.Fs.Charting.Console", "JoF.Solar.Fs.Charting.Console\JoF.Solar.Fs.Charting.Console.fsproj", "{3046C206-2CAE-4CE5-ACF7-4F9B84F198A0}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "JoF.Solar.Fs.Spa", "JoF.Solar.Fs.Spa\JoF.Solar.Fs.Spa.fsproj", "{3E12A768-E499-4512-A333-49871ED87178}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "JoF.Solar.Fs.WebApp", "JoF.Solar.Fs.WebApp\JoF.Solar.Fs.WebApp.fsproj", "{6DBD4E73-CF9A-4733-9D21-F3BBE8EA71CF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D04A6A9B-6EAC-4AC3-835E-BF614FE8D1C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D04A6A9B-6EAC-4AC3-835E-BF614FE8D1C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D04A6A9B-6EAC-4AC3-835E-BF614FE8D1C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D04A6A9B-6EAC-4AC3-835E-BF614FE8D1C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{017F5B35-5C2B-4048-B433-3ECB381F64A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{017F5B35-5C2B-4048-B433-3ECB381F64A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{017F5B35-5C2B-4048-B433-3ECB381F64A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{017F5B35-5C2B-4048-B433-3ECB381F64A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3046C206-2CAE-4CE5-ACF7-4F9B84F198A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3046C206-2CAE-4CE5-ACF7-4F9B84F198A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3046C206-2CAE-4CE5-ACF7-4F9B84F198A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3046C206-2CAE-4CE5-ACF7-4F9B84F198A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E12A768-E499-4512-A333-49871ED87178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E12A768-E499-4512-A333-49871ED87178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E12A768-E499-4512-A333-49871ED87178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E12A768-E499-4512-A333-49871ED87178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DBD4E73-CF9A-4733-9D21-F3BBE8EA71CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DBD4E73-CF9A-4733-9D21-F3BBE8EA71CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DBD4E73-CF9A-4733-9D21-F3BBE8EA71CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DBD4E73-CF9A-4733-9D21-F3BBE8EA71CF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{017F5B35-5C2B-4048-B433-3ECB381F64A1} = {F6935398-87B7-4FF5-BE9C-2FF3F6E1AB2C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6FA86C87-DFEA-4FF6-A5F1-AF0B950B7A1D}
+	EndGlobalSection
+EndGlobal
